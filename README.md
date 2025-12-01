@@ -60,27 +60,23 @@ Editorial Agent → Schedule Agent → Memory → Frontend App
 
 | Endpoint | Description |
 |---------|-------------|
-| `/full_profile` | Fetch full stats + topics |
-| `/weak_topics` | Weak topic analysis |
-| `/recommendations` | Personalized problem recommendations |
-| `/schedule` | 7-day plan |
-| `/mark_solved` | Update progress |
-| `/learning_path` | Roadmap preview |
+| full_profile | Fetch full stats + topics |
+| weak_topics | Weak topic analysis |
+| recommendations | Personalized problem recommendations |
+| schedule | 7-day plan |
+| mark_solved | Update progress |
+| learning_path | Roadmap preview |
 
 ---
 
 ## 🛠 How to Run Backend Locally
-
+```bash
 cd backend
 python3 -m venv venv
 source venv/bin/activate
 pip install -r requirements.txt
-uvicorn backend.api_server:app --reload
-
-yaml
-Copy code
-
----
+uvicorn backend.api_server:app --reload 
+```
 
 ## 📱 How to Run Android App
 
