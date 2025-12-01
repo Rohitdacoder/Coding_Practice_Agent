@@ -1,1 +1,4 @@
--r backend/requirements.txt
+requests
+beautifulsoup4
+fastapi
+uvicorn
