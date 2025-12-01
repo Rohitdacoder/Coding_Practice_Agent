@@ -100,10 +100,5 @@ The backend is deployed on **Railway** and accessible through a public endpoint.
 
 ---
 
-## 📺 Demo Video  
-*(Add your YouTube link here)*
-
----
-
 ## 📄 License  
 MIT License.
