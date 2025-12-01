@@ -36,9 +36,6 @@ The **DSA Practice Recommendation Agent** is a multi-agent system that automatic
 User Profile → Stats Agent → Weak Topic Agent → Recommendation Agent →
 Editorial Agent → Schedule Agent → Memory → Frontend App
 
-yaml
-Copy code
-
 ---
 
 ## 🔧 Tech Stack
